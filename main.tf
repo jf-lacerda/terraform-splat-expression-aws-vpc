@@ -9,7 +9,7 @@ terraform {
 
   backend "s3" {
     bucket = "joaolacerdaremotestate96"
-    key    = "count/terraform.tfstate"
+    key    = "splat-expression/terraform.tfstate"
     region = "us-east-1"
   }
 }
